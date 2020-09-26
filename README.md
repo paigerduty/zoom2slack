@@ -16,6 +16,13 @@ To automatically post zoom meeting recordings to a designated Slack channel
 1. Zoom API - fetch meeting recording
 1. Slack API - authenticate
 1. Slack API - how to post to channel
+1. Github actions CI fmt (go/helm)
+1. Github actions CI lint (go/helm)
+1. Github actions CI test (go)
+1. Github actions CI validate (helm/k8s)
+1. Github actions CI dockerfile build
+1. Github actions CD publish helm chart (?)
+1. Deploy plan - cronjob (does it need helm chart? k8s manifests?) def need way to run locally as-is (dockerfile)
 1. Confirm dev tier details
 1. Write graceful shutdown to log if in progress jobs were happening
 1. [stretch] periodically GCal check cal invite in case it moved, use that date+1 day to set the cron
